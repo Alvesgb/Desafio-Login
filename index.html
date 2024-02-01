@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img"></div>
+            <div id="form">
+                <h1>LOGIN</h1>
+                <form action="login.pgp" method="post">
+                    <div class="camp1">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail"
+                        placeholder="E-mail" autocomplete="email" maxlength="30">
+                    </div>
+                    <div class="camp1">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha"
+                        placeholder="Senha" autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
+                    <div id="camp2">
+                        <input type="checkbox" name="manter" id="imanter">
+                        <label for="imanter">Manter Conectado</label>
+                    </div>
+                    <div id="camp3">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                    <p>
+                        <input id="entrar" type="submit" value="ENTRAR">
+                    </p>
+                    <p id="inst">
+                        <a href="https://www.instagram.com/alves.gb77/" target="_blank">Alves</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
